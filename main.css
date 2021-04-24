@@ -1,5 +1,61 @@
 
-*{
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh !important;
+    font-family: 'Avenir';
+    color: grey;
+    object-position: center;
+
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header .logo {
+    height: 100px;
+    align-items: center;
+}
+#parte1 >p {
+    text-align: center;
+    font-family: Impact;
+    font-size: 70px;
+    font-weight: 700; /*grosor de letra */
+    color: red;
+ }
+ .imagen{
+    margin: 10px auto;
+    display: block;
+    object-position: center;
+    flex-wrap: wrap;
+ }
+
+ .botoningresar { text-decoration: none;
+    color:grey;
+    font-family: 'Verdana';
+    font-weight: 700;
+    background-color: darkslategrey;
+    border: 1px solid grey;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    display:inline-flexbox;
+    float:none;
+	align-items: center;
+    
+  
+}
+.botoningresar:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+  
+  *{
     margin: 0px;
     padding: 5px;
     box-sizing: border-box;
@@ -111,3 +167,49 @@ footer{
 }
 /*Estilos de Eduardo*/
 
+  #section-03{
+    width: 100%;
+    height: 600px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: black;
+    position: relative;
+    
+ }
+
+ .pasos-contenedor{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+.paso-individual{
+    width: 28%;
+    text-align: center;
+ }
+
+.paso-individual img{
+    width: 90%;
+}
+
+.paso-individual h3{
+    margin: 10px 0;
+}
+
+.paso-individual p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+.paso-individual img{
+    width: 100px;   
+    align-items: center;
+    object-fit: cover;
+ }
+
+ .image-01{
+    margin: 10px auto;
+    display: block;
+ }
