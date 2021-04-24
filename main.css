@@ -114,3 +114,49 @@ footer{
   }
 
 
+  #section-03{
+    width: 100%;
+    height: 600px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: black;
+    position: relative;
+    
+ }
+
+ .pasos-contenedor{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+.paso-individual{
+    width: 28%;
+    text-align: center;
+ }
+
+.paso-individual img{
+    width: 90%;
+}
+
+.paso-individual h3{
+    margin: 10px 0;
+}
+
+.paso-individual p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+.paso-individual img{
+    width: 100px;   
+    align-items: center;
+    object-fit: cover;
+ }
+
+ .image-01{
+    margin: 10px auto;
+    display: block;
+ }
